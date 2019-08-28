@@ -1,79 +1,79 @@
 Open main1.py. Before running it, what do you expect this program to do? 
-
+I expect this program to ask me what my favorite color is and make the text that color.
 Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
-
+It showed where this file is saved.
 What do you think the program did with what you typed?
-
+I think maybe it saved what I typed.
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+It has print(color) and color = input.
 What do you think the color = input() will do? 
-
+I think it will change the color of what I type to the color that was typed.
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+It did not do what I expected.
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+Main3 is different from main2 because it has an if or else command.
 What is happening on lines 11–14? 
-
+It is a line of code to look at my answers and determine if I am right or wrong.
 Why are lines 12 and 14 indented? 
-
+Lines 12 and 14 are indented because they are outputs that depend on my input.
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+The program thinks I am wrong if I do not capitalize red.
 What does this tell you about "color"?
-
+Color is more of a term for what I input so the program can know what my input is.
 
 
 Open main4.py. Before running it, describe how this is different than main3.py. 
-
+Main4 is different from main3 because it has two possible inputs that can be correct.
 What problem is this trying to solve? 
-
+This is trying to solve the fact that it is completely reasonable to type either "Red" or "red" as both are the same word with different capitalizations.
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+If I use some other capitalization scheme, the program thinks I am wrong.
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+I expect that line 11 will make the program accept any capitalization scheme of red.
 What problem is it trying to solve? 
-
+Line 11 is trying to fix the problem that it is possible to type red with random capitals.
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+If I add spaces before or after the question, it thinks I am wrong.
 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+Line 11 is different because it has .strip().
 What would you guess .strip() is doing? 
-
+I assume that .strip() removes any spaces before and after red.
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+You can't break this logic without changing the word.
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+I expect this to be different from main6 because now you can get a close answer.
 What is the purpose of line 11? 
-
+I think the purpose of line 11 is to remove any spaces before and after and to accept any capitalization format of the color input.
 Run the program and answer the question.
 
 
 
 Open main8.py. What is the purpose of line 11? 
-
+I believe the purpose of line 11 is to keep asking me the question until I get it right.
 Why are lines 12–19 indented? 
-
+The lines 12-19 are indented because it allows it to be grouped under the while command.
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+I believe that the program would stop keep asking the question.
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
 
 
 Open main9.py. What is happening on line 12? 
-
+On line 12 the program is checking to see if I have typed red.
 What is the purpose of “count”? 
-
+The purpose of count is to keep track of how many times I have tried to answer the question.
 What is happening on line 22? 
-
+Line 22 is line of code that will send a message showing me how many times I have tried.
 Run the program.
 
 
